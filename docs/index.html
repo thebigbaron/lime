@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>🍋 Lime</title>
+  <meta name="description" content="A CSS & SCSS Framework with both flex and classic 12 column grid system for responsive web sites and applications. ">
+  
+  <link rel="icon" type="image/png"  href="images/favicon.png">
+  
+ 
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="lime.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a href="https://github.com/thebigbaron/lime"><img src="images/forkme_right_green_007200.svg" style="position:absolute;top:0;right:0;" alt="Fork me on GitHub"></a>
+  <header class="hero">
+
+    <img class="logo" src="images/lime.png" alt="lime">
+    <h5 style="text-align: center;">A Fresh Cascading Style Sheets Framework.</h5>
+    <div>
+      <a href="https://github.com/thebigbaron/lime" class="btn github">Github</a>
+    </div>
+  </header>
+
+  <section class="container medium section">
+    <h2>About</h2>
+    <p><strong>Lime</strong> is a simple but powerfull Fresh CSS Framework with both flex grid and classic 12 grid system. Cover most of designing cases as a full responsive framework but remains lightweight and minimal with just covering the basics. Target is to be the tool for every new project you start.</p>
+  </section>
+  <hr>
+  <section class="container medium section">
+    <h2>Installation</h2>
+
+    <p>Download Lime directly from GitHub repository.</p>
+    <a href="https://github.com/thebigbaron/lime/archive/master.zip" class="btn github">Download Lime</a>
+    <br>
+    <p>Or clone the repository</p>
+
+    <code> $ git clone https://github.com/thebigbaron/lime.git </code>
+    <br>
+  
+
+
+  </section>
+  <hr>
+  <section class="container medium section" id="containers">
+    <h2>Containers</h2>
+    <p>Three container sizes for full responsive apps & sites. 🏁 😎</p>
+    <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"container"</span><span style='color:#a65700; '>></span>Large(<span style='color:#8c0000; '>1200</span>px)<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"container medium"</span><span style='color:#a65700; '>></span>Medium(<span style='color:#8c0000; '>1000</span>px)<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"container small"</span><span style='color:#a65700; '>></span>Small(<span style='color:#8c0000; '>800</span>px)<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+
+  <section class="container medium">
+    <h2>Flex-grid</h2>
+    <div class="row">
+      <div class="col"><span class="col-demo">.col</span></div>
+    </div>
+    <div class="row">
+      <div class="col"><span class="col-demo">.col</span></div>
+      <div class="col"><span class="col-demo">.col</span></div>
+      <div class="col"><span class="col-demo">.col</span></div>
+      <div class="col"><span class="col-demo">.col</span></div>
+    </div>
+    <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"row"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"col"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"row"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"col"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"col"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"col"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"col"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+</pre>
+    <h2>Classic 12-Grid</h2>
+    <div class="twelve columns">
+      <div class="one column column-demo">one</div>
+      <div class="eleven columns column-demo">eleven</div>
+    </div>
+    <div class="twelve columns">
+      <div class="two columns column-demo">two</div>
+      <div class="ten columns column-demo">ten</div>
+    </div>
+    <div class="twelve columns">
+      <div class="three columns column-demo">three</div>
+      <div class="nine columns column-demo">nine</div>
+    </div>
+    <div class="twelve columns">
+      <div class="four columns column-demo">four</div>
+      <div class="eight columns column-demo">eight</div>
+    </div>
+    <div class="twelve columns">
+      <div class="five columns column-demo">five</div>
+      <div class="seven columns column-demo">seven</div>
+    </div>
+    <div class="twelve columns">
+      <div class="six columns column-demo">six</div>
+      <div class="six columns column-demo">six</div>
+    </div>
+    <div class="twelve columns">
+      <div class="five columns column-demo">five</div>
+      <div class="seven columns column-demo">seven</div>
+    </div>
+    <div class="twelve columns">
+      <div class="four columns column-demo">four</div>
+      <div class="eight columns column-demo">eight</div>
+    </div>
+    <div class="twelve columns">
+      <div class="three columns column-demo">three</div>
+      <div class="nine columns column-demo">nine</div>
+    </div>
+    <div class="twelve columns">
+      <div class="two columns column-demo">two</div>
+      <div class="ten columns column-demo">ten</div>
+    </div>
+    <div class="twelve columns">
+      <div class="one column column-demo">one</div>
+      <div class="eleven columns column-demo">eleven</div>
+    </div>
+    <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"one column"</span><span style='color:#a65700; '>></span>one<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"eleven columns"</span><span style='color:#a65700; '>></span>eleven<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"two columns"</span><span style='color:#a65700; '>></span>two<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"ten columns"</span><span style='color:#a65700; '>></span>ten<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"three columns"</span><span style='color:#a65700; '>></span>three<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"nine columns"</span><span style='color:#a65700; '>></span>nine<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"four columns"</span><span style='color:#a65700; '>></span>four<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"eight columns"</span><span style='color:#a65700; '>></span>eight<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"five columns"</span><span style='color:#a65700; '>></span>five<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"seven columns"</span><span style='color:#a65700; '>></span>seven<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"six columns"</span><span style='color:#a65700; '>></span>six<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"six columns"</span><span style='color:#a65700; '>></span>six<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"five columns"</span><span style='color:#a65700; '>></span>five<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"seven columns"</span><span style='color:#a65700; '>></span>seven<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"four columns"</span><span style='color:#a65700; '>></span>four<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"eight columns"</span><span style='color:#a65700; '>></span>eight<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"three columns"</span><span style='color:#a65700; '>></span>three<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"nine columns"</span><span style='color:#a65700; '>></span>nine<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"two columns"</span><span style='color:#a65700; '>></span>two<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"ten columns"</span><span style='color:#a65700; '>></span>ten<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"twelve columns"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"one column"</span><span style='color:#a65700; '>></span>one<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"eleven columns"</span><span style='color:#a65700; '>></span>eleven<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+  <hr>
+  <section class="container medium" id="typography">
+    <h2>Typography</h2>
+    <p>Typography is the art and technique of arranging type to make written language legible, readable, and appealing when displayed.🍬 😊</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <a href="#">Anchor</a>
+    <em>Emphasis</em>
+    <small>Small</small>
+    <strong>Strong</strong>
+    <u>Underline</u>
+    <p>Paraghaph</p>
+    <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>Heading <span style='color:#8c0000; '>1</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h1</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h2</span><span style='color:#a65700; '>></span>Heading <span style='color:#8c0000; '>2</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h2</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h3</span><span style='color:#a65700; '>></span>Heading <span style='color:#8c0000; '>3</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h3</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h4</span><span style='color:#a65700; '>></span>Heading <span style='color:#8c0000; '>4</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h4</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h5</span><span style='color:#a65700; '>></span>Heading <span style='color:#8c0000; '>5</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h5</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h6</span><span style='color:#a65700; '>></span>Heading <span style='color:#8c0000; '>6</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h6</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>a</span><span style='color:#074726; '> </span><span style='color:#074726; '>href</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"#"</span><span style='color:#a65700; '>></span>Anchor<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>em</span><span style='color:#a65700; '>></span>Emphasis<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>em</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>small</span><span style='color:#a65700; '>></span>Small<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>small</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>strong</span><span style='color:#a65700; '>></span>Strong<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>strong</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>u</span><span style='color:#a65700; '>></span>Underline<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>u</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>Paraghaph<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+  <hr>
+  <section class="container medium" id="blockquotes">
+    <h2>Blockquotes</h2>
+    <p>Blockquote for quotes of great people. 📜 👏</p>
+    <blockquote>
+      <p>It's not a faith in technology. It's faith in people.</p>
+      <cite>- Steve Jobs</cite>
+    </blockquote>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>blockquote</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>It's not a faith in technology<span style='color:#8c0000; '>.</span> It's faith in people<span style='color:#8c0000; '>.</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>p</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>cite</span><span style='color:#a65700; '>></span>- Steve Jobs<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>cite</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>blockquote</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+  <hr>
+  <section class="container medium" id="buttons">
+    <h2>Buttons</h2>
+    <div>
+      <button>Button</button>
+      <a href="#" class="btn">Link</a>
+      <input type="button" value="Input">
+      <input type="submit" value="Submit">
+      <button disabled>Disabled</button>
+    </div>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>button</span><span style='color:#a65700; '>></span>Button<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>button</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>a</span><span style='color:#074726; '> </span><span style='color:#074726; '>href</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"#"</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"btn"</span><span style='color:#a65700; '>></span>Link<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>input</span><span style='color:#074726; '> </span><span style='color:#074726; '>type</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"button"</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"Input"</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>input</span><span style='color:#074726; '> </span><span style='color:#074726; '>type</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"submit"</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"Submit"</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>button</span><span style='color:#074726; '> </span><span style='color:#074726; '>disabled</span><span style='color:#a65700; '>></span>Disabled<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>button</span><span style='color:#a65700; '>></span>
+</pre>
+    
+
+  </section>
+  <hr>
+  <section class="container medium" id="code">
+    <h2>Code</h2>
+    <p>In this section you can put code blocks you want to represent to look like this.🤓 🤓</p>
+    <pre><code>class HelloWorld {
+  greet() {
+    console.log('Hello World!');
+  }
+}</code></pre>
+    <p>You can also use an online editor for syntax highlighting like <a href="https://tohtml.com/html/">tohtml</a> to look like this.</p>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>pre</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>code</span><span style='color:#a65700; '>></span>
+class HelloWorld {
+  greet() {
+    console<span style='color:#8c0000; '>.</span>log('Hello World!');
+  }
+}
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>code</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>pre</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+  <hr>
+  <section class="container medium" id="forms">
+    <h2>Forms</h2>
+
+    <form>
+      <h3>Login Form</h3>
+      <div>
+        <label>Email address</label>
+        <input type="email" placeholder="Enter email">
+        <small>We'll never share your email.</small>
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" placeholder="Password">
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="United States">United States</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="Canada">Canada</option>
+          <option value="France">France</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox">
+        <small>Remember me</small>
+      </div>
+      <button type="submit" class="button">Submit</button>
+    </form>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>form</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>h3</span><span style='color:#a65700; '>></span>Login Form<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>h3</span><span style='color:#a65700; '>></span>
+   <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+     <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>label</span><span style='color:#a65700; '>></span>Email address<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>label</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>input</span><span style='color:#074726; '> </span><span style='color:#074726; '>type</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"email"</span><span style='color:#074726; '> </span><span style='color:#074726; '>placeholder</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"Enter email"</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>small</span><span style='color:#a65700; '>></span>We'll never share your email<span style='color:#8c0000; '>.</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>small</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>label</span><span style='color:#a65700; '>></span>Password<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>label</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>input</span><span style='color:#074726; '> </span><span style='color:#074726; '>type</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"password"</span><span style='color:#074726; '> </span><span style='color:#074726; '>placeholder</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"Password"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>label</span><span style='color:#074726; '> </span><span style='color:#074726; '>for</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"country"</span><span style='color:#a65700; '>></span>Country<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>label</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>select</span><span style='color:#074726; '> </span><span style='color:#074726; '>id</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"country"</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"United States"</span><span style='color:#a65700; '>></span>United States<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"United Kingdom"</span><span style='color:#a65700; '>></span>United Kingdom<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"Canada"</span><span style='color:#a65700; '>></span>Canada<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"France"</span><span style='color:#a65700; '>></span>France<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#074726; '> </span><span style='color:#074726; '>value</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"Other"</span><span style='color:#a65700; '>></span>Other<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>option</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>select</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>input</span><span style='color:#074726; '> </span><span style='color:#074726; '>type</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"checkbox"</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>small</span><span style='color:#a65700; '>></span>Remember me<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>small</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>button</span><span style='color:#074726; '> </span><span style='color:#074726; '>type</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"submit"</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"button"</span><span style='color:#a65700; '>></span>Submit<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>button</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>form</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+  <hr>
+  <section class="container medium" id="lists">
+    <h2>Lists</h2>
+    <p>You can choose from three types of lists ol, ul, dl. 📋 🤗</p>
+
+    <div class="row">
+      <div class="col">
+        <ul>
+          <li>Unorder List
+          <ul>
+            <li>Nested item</li>
+          </ul>
+          </li>
+          <li>Two</li>
+          <li>Three</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ol>
+          <li>Order List
+            <ul>
+              <li>Nested item</li>
+            </ul>
+          </li>
+          <li>Two</li>
+          <li>Three</li>
+        </ol>
+      </div>
+      <div class="col">
+        <dl>
+          <dt>Description list item 1</dt>
+          <dd>Description list item 1.1</dd>
+        </dl>
+      </div>
+    </div>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Unorder List
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Nested item<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Two<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Three<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>ol</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Order List
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Nested item<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Two<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>Three<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>ol</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>dl</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>dt</span><span style='color:#a65700; '>></span>Description list item <span style='color:#8c0000; '>1</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>dt</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>dd</span><span style='color:#a65700; '>></span>Description list item <span style='color:#8c0000; '>1.1</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>dd</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>dl</span><span style='color:#a65700; '>></span>
+</pre>
+  </section>
+  <hr>
+  <section class="container medium" id="Tables">
+    <h2>Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Smartphone</td>
+          <td>2</td>
+          <td>$ 180.00</td>
+          <td>$ 360.00</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>TV</td>
+          <td>1</td>
+          <td>$ 990.00</td>
+          <td>$ 990.00</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Laptop</td>
+          <td>4</td>
+          <td>$ 600.00</td>
+          <td>$ 2,400.00</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>USB Charger</td>
+          <td>4</td>
+          <td>$ 12.00</td>
+          <td>$ 48.00</td>
+        </tr>
+      </tbody>
+    </table>
+
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>table</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>thead</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>No<span style='color:#8c0000; '>.</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>Product<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>Quantity<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>Price<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>Total Price<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>thead</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>tbody</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>1</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>Smartphone<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>2</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>180.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>360.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>2</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>TV<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>1</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>990.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>990.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>3</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>Laptop<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>4</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>600.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>2</span>,<span style='color:#8c0000; '>400.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+      <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>4</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>th</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>USB Charger<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span><span style='color:#8c0000; '>4</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>12.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>$ <span style='color:#8c0000; '>48.00</span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>td</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>tr</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>tbody</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>table</span><span style='color:#a65700; '>></span>
+      
+</pre>
+
+  </section>
+  <hr>
+  <div class="container medium">
+    <footer>
+      <p class="footer-message">Build by <a href="https://github.com/thebigbaron">BigBaron </a>with ❤️. Licensed under the <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br /></p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

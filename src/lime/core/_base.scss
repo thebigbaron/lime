@@ -1,0 +1,57 @@
+/*
+* Base
+*/
+
+html {
+  box-sizing: border-box;
+  font-size: px-to-percent(10px);
+
+  @include respond('medium') {
+    font-size: px-to-percent(9px);
+  }
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: $primary;
+  font-family: $font-family;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.01rem;
+}
+
+
+
+b,
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+    color: $hover-link-color;
+  }
+}
+
+hr {
+  margin: 3rem;
+  border-top: 0.1rem solid $secondary;
+}

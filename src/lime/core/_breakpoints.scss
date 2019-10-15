@@ -1,0 +1,36 @@
+/*
+* Breakpoints
+*/
+
+/* Media Breakpoints. */
+$mobile    : "min-width: px-to-em(400px)" !default;
+$tablet   : "min-width: px-to-em(550px)" !default;
+$desktop   : "min-width: px-to-em(1080px)" !default;
+
+
+$breakpoints: (
+  'small': (max-width: px-to-em(600px)),
+  'medium': (max-width: px-to-em(900px)),
+  'large': (max-width: px-to-em(1100px)),
+  'huge': (min-width: px-to-em(1800px)),
+  'extra': (min-width: px-to-em(2700px)),
+);
+
+@mixin respond($breakpoint) {
+  $raw-query: map-get($breakpoints, $breakpoint);
+
+  @if $raw-query {
+    $query: if(
+      type-of($raw-query) == 'string',
+      unquote($raw-query),
+      inspect($raw-query)
+    );
+
+    @media #{$query} {
+      @content;
+    }
+  } @else {
+    @error 'No value found for `#{$breakpoint}` in `$breakpoints` map.';
+  }
+}
+

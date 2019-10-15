@@ -1,0 +1,26 @@
+/*
+* Lime v.1.0.0
+* Copyright 2019, BigBaron
+* https://github.com/thebigbaron
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* Core */
+
+@import "core/normalize";
+@import "core/vars";
+@import "core/functions";
+@import "core/breakpoints";
+@import "core/base";
+@import "core/grid";
+@import "core/spacing";
+@import "core/typo";
+
+/* Partials */
+
+@import "partials/buttons";
+@import "partials/code";
+@import "partials/forms";
+@import "partials/lists";
+@import "partials/tables";

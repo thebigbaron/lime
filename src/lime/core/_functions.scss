@@ -1,0 +1,22 @@
+/*
+* Functions
+*/
+
+/* Pixel to percentage replacement based on '$context'*/
+@function px-to-percent($value, $context: 16px) {
+  @return percentage($value/$context);
+}
+
+/* Pixel to em replacement based on '$context'*/
+@function px-to-em($value, $context: 16px) {
+  @return ($value/$context) * 1em;
+}
+
+
+@function grid-column-width($n) {
+  @return $column-width * $n - ($column-margin*($total-columns - $n)/$total-columns);
+}
+
+@function grid-offset-length($n) {
+  @return grid-column-width($n) + $column-margin;
+}

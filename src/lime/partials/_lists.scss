@@ -1,0 +1,35 @@
+/*
+* Lists
+*/
+
+dl,
+ol,
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 2rem;
+
+
+	dl,
+	ol,
+	ul {
+    margin: 0 0 0 1.5rem;
+  }
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul {
+  list-style: circle inside;
+}
+
+dd {
+  -webkit-margin-start: 40px;
+}
+
+dt {
+  font-weight: bold;
+}

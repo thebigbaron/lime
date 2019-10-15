@@ -1,0 +1,25 @@
+/* Vars */
+
+/* Colors */
+$primary: #383f3d !default;
+$secondary: #e3eae5 !default;
+$link-color: #9dd94e !default;
+$hover-link-color: #006e00 !default;
+$button-color: #555555 !default;
+$hover-button: darken($button-color, 25%);
+
+
+
+
+/* Font Family */
+$font-family: 'Roboto', sans-serif !default;
+
+
+/* Grid Vars */
+$container-width-larger-than-mobile: 90% !default;
+$container-width-larger-than-tablet: 85% !default;
+$total-columns: 12 !default;
+$column-width: 100 / $total-columns !default; 
+$column-margin: 2% !default; 
+
+

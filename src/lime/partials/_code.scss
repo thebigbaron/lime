@@ -1,0 +1,39 @@
+/*
+* Code & Blockquotes
+*/
+
+code {
+  background-color: $secondary;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 0.4rem;
+  margin: 0 0.2rem;
+}
+
+pre {
+  background-color: $secondary;
+  overflow-y: scroll;
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  & > code {
+    padding: 0;
+    font-size: 1.6rem;
+  }
+}
+
+blockquote {
+  border-left: 0.4rem solid $primary;
+  padding: 1rem 2rem;
+  background-color: $secondary;
+  margin-bottom: 2rem;
+
+  *:last-of-type {
+    margin-bottom: 0;
+  }
+
+  cite {
+  	font-style:italic;
+    display: block;
+    text-align: left;
+  }
+}

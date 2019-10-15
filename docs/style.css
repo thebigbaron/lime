@@ -1,0 +1,73 @@
+.hero {
+  
+  background-color: #9dd94e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.github {
+  color:white !important;
+  background-color: #006e00 !important;
+  border:0.1rem solid #006101!important;
+}
+
+.github:hover {
+    color: white;
+    border: 0.1rem solid #006101;
+    background-color: #008601 !important;
+}
+
+.logo {
+  width: 30rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 56.25em) {
+  .logo {
+    width: 25rem;
+  }
+}
+
+
+.section {
+  padding-top: 2rem;
+}
+
+.section:last-of-type {
+  padding-bottom: 10rem;
+}
+
+.col-demo, .column-demo {
+  background-color: #9dd94e;
+  
+  color: white;
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0;
+  font-weight: bold;
+}
+
+.footer-message {
+  text-align:center;
+   
+   font-style: italic;
+}
+
+footer {
+  margin-bottom: 3rem;
+}
+
