@@ -291,8 +291,8 @@ a:hover {
 }
 
 hr {
-  margin: 3rem;
-  border-top: 0.1rem solid #e3eae5;
+  margin: 1rem 0;
+  border-top: 0.01rem solid #e3eae5;
 }
 
 /*
@@ -501,7 +501,7 @@ p,
 ul,
 ol,
 form {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 section {
@@ -512,8 +512,7 @@ section {
 * Typography
 */
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: 2rem;
+  margin: 0 0 .5rem;
   font-weight: 300;
 }
 
@@ -576,7 +575,7 @@ h6 {
 }
 
 p {
-  margin: 0 auto 2rem;
+  margin: .5rem 0;
 }
 
 .text-center {
@@ -808,10 +807,8 @@ input[type='radio'] {
 dl,
 ol,
 ul {
-  list-style: none;
   margin-top: 0;
   padding-left: 0;
-  margin-bottom: 2rem;
 }
 
 dl dl,
@@ -831,7 +828,7 @@ ol {
 }
 
 ul {
-  list-style: circle inside;
+  list-style: square inside;
 }
 
 dd {
